@@ -36,44 +36,14 @@ function container_one_Ain() {
 
 }
 container_one_Ain();
-
-// let options = {
-//     root: null,
-//     threshold:0.25,
-//     rootMargin: "-150px "
-
-    // rootMargin: "0px 0px -1000px 0px"
-// };
-
-
-// let observer_one = new IntersectionObserver((entries,observer)=>{
-//     entries.forEach((entry)=>{
-//         if(!entry.isIntersecting){
-            // return;
-            // entry.target.classList.remove("observer_two_show");
-        
-        
-//         }
-//             console.log(entry.target);
-//             entry.target.classList.toggle("observer_two_show");
-//             observer.unobserve(entry.target);
-
-        
-      
-//     });
-
-    
-// },options);
+\
 
 
 let opts = {
     root: null,
-    // threshold:0.15,
     threshold:0.25,
 
     rootMargin: "0px 0px -150px 0px"
-
-    // rootMargin: "0px 0px -150px  0px" working fine
 };
 
 
@@ -116,10 +86,3 @@ alert("You seem to be using unsupported browser, please upgrade or use a support
 
 
 
-
-
-
-// <========================================= BEGINNING OF EVENTLISTENERS ===================================================>
-
-
-// <========================================= END OF EVENTLISTENERS ===================================================>
