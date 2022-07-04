@@ -11,13 +11,6 @@ let generalObserver = document.querySelectorAll("[generalObserver]");
 
 
 
-
-
-
-
-
-
-
 // <========================================= BEGINNING FUNCTIONS ===================================================>
 function container_one_Ain() {
  setTimeout(
@@ -36,7 +29,6 @@ function container_one_Ain() {
 
 }
 container_one_Ain();
-\
 
 
 let opts = {
